@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "58053f86-d657-4653-9e2f-f704b2a7f986": {
+      "ProjectGuid": "58053f86-d657-4653-9e2f-f704b2a7f986",
+      "DisplayName": "NewCI",
+      "ColorIndex": 0
+    },
+    "4b509edb-7245-4060-b0b2-fe50fd86ecfc": {
+      "ProjectGuid": "4b509edb-7245-4060-b0b2-fe50fd86ecfc",
+      "DisplayName": "NewCI.Repositories",
+      "ColorIndex": 1
+    },
+    "63ab047e-0d1e-497e-afe2-b8e48be4ea91": {
+      "ProjectGuid": "63ab047e-0d1e-497e-afe2-b8e48be4ea91",
+      "DisplayName": "NewCI.Interfaces",
+      "ColorIndex": 2
+    },
+    "9b619afd-45fa-4c5c-9d89-fc11850603f8": {
+      "ProjectGuid": "9b619afd-45fa-4c5c-9d89-fc11850603f8",
+      "DisplayName": "NewCI.Business",
+      "ColorIndex": 3
+    },
+    "44339640-6d70-44a0-8552-6fb87cf222cc": {
+      "ProjectGuid": "44339640-6d70-44a0-8552-6fb87cf222cc",
+      "DisplayName": "NewCI.Entities",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
