@@ -17,7 +17,7 @@ namespace NewCI.Interfaces.RepositoryInterfaces
       
        
        
-        public BannersDto? GetBanners();
+   
     }
 
 }

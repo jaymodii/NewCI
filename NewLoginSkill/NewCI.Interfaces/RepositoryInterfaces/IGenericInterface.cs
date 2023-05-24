@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NewCI.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,11 @@ namespace NewCI.Interfaces.RepositoryInterfaces
 {
     public interface IGenericInterface<T> where T : class
     {
-       
-        IEnumerable<T> GetAll();
-        void Add(T entity);
-        void Update(T entity);
-        void Delete(T entity);
+        public Task<IEnumerable<T>> GetAllRecordsAsync();
+        public PagedResult<T> GetAll(int pageNumber, string? sortBy, int pageSize = 5);
+        public bool Add(T entity);
+        public bool Update(T entity);
+        public bool Delete(long id);
+        public T? GetById(long id);
     }
 }

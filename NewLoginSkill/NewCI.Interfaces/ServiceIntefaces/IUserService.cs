@@ -1,5 +1,7 @@
 ﻿using NewCI.Entities.DTOs;
+using NewCI.Entities.Models;
 using NewCI.Entities.ViewModels;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,7 @@ namespace NewCI.Interfaces.ServiceInterfaces
          
               public  SessionDto? Login(LoginPageViewModel obj);
  
-             public BannersDto? GetBanners();
+             
            
         
 

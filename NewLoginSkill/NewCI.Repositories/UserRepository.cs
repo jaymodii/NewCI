@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿
 
 using NewCI.Entities.Data;
 using NewCI.Entities.DTOs;
@@ -13,43 +13,16 @@ using System.Threading.Tasks;
 
 namespace NewCI.Repositories
 {
-    public class UserRepository : IUserInterface
+    public class UserRepository : GenericRepository<User>, IUserInterface 
     {
         public readonly DatabasewithDataContext _db;
-        public UserRepository(DatabasewithDataContext db)
+        public UserRepository(DatabasewithDataContext db):base(db)
         {
             _db = db;
         }
 
-        public void Add(User entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(User entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<User> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(User entity)
-        {
-            throw new NotImplementedException();
-        }
-        public BannersDto? GetBanners()
-        {
-            BannersDto banners = new BannersDto()
-            {
-                Banners = _db.Banners.Where(x => x.DeletedAt == null).OrderBy(x => x.SortOrder).ToList(),
-            };
-
-          
-            return banners;
-        }
+     
+       
 
 
         public SessionDto? Login(CredentialDto obj)

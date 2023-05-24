@@ -1,0 +1,53 @@
+﻿@using NewCI.Entities.DTOs
+@{
+
+    ViewData["Title"] = "Add Skills";
+    Layout = "_NavigationLayout";
+}
+@model NewCI.Entities.DTOs.SkillCRUDDto;
+
+
+<head>
+    <link rel="stylesheet" href="~/css/UserProfile.css" />
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</head>
+
+<div class="row">
+    <div class="col-12">
+        <div class="ProfileEditTag mt-5">
+            <form method="post" asp-controller="Skill"  asp-action="SaveSkill">
+                <input asp-for="SkillId" type="hidden" />
+                <div class="d-flex basicInfoTag">
+                    <p class="basicInfoTagText">
+                        Add Skill
+                    </p>
+                </div>
+                <div class="InputFields justify-content-center row">
+                    <div class="form-group col-4">
+                        <label class="form-label">Title</label>
+                        <input asp-for="SkillName" type="text" class="form-control" placeholder="Enter  Skill" maxlength="70">
+                        <span asp-validation-for="SkillName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-3">
+                        <label asp-for="Status" class="form-label">Status</label>
+                        <select ASP-FOR="Status" class="form-select" aria-label="">
+                            <option selected hidden value="">Select Status</option>
+                            <option value="True">Active</option>
+                            <option value="False">In Active</option>
+                        </select>
+                         <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="d-flex mt-5 justify-content-center mb-5 gap-3">
+                    <a class="btn grey-btn" asp-action="SkillsPage" asp-controller="Skill">Cancel</a>
+                    <button  class="btn btn-submit d-flex" type="submit" asp-controller="Skill" asp-action="SaveSkill">
+                        Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

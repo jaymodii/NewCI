@@ -1,0 +1,306 @@
+﻿
+
+.profileEditTag {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border: 0.5px solid #D9D9D9;
+}
+
+.profilePic {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.nameOfuser {
+    font-size: 13px;
+    margin: 0 !important;
+    display: flex;
+    gap: 0.5rem !important;
+}
+
+.basicInfoTagText {
+    height: 40px;
+    font-size: 19px;
+    margin-bottom: -1px;
+    max-width: fit-content;
+    border-bottom: 2px solid #414141;
+}
+
+.basicInfoTag {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.modal-footer {
+    justify-content: flex-start;
+}
+
+.textAreaofsKILLS {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #414141;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.form-label {
+    margin-top: 1rem;
+}
+
+.changepass .form-group {
+    margin: 18px 10px;
+    /* Your CSS rules here */
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #f88634;
+}
+
+.textAreaofsKILLS select {
+    list-style: none !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.btn-submit {
+    max-width: max-content;
+    color: #f88634;
+    border: 2px solid #f88634;
+    border-radius: 24px;
+    justify-content: center;
+    padding-inline: 1.5rem !important;
+    border-color: #F88634 !important;
+}
+
+    .btn-submit:hover {
+        color: #fff;
+        background-color: #f88634;
+        transition: 500ms all ease-in-out;
+    }
+
+/* Define the default background color for the options */
+
+
+/* Define the background color for the selected option */
+option:focus-visible {
+    background-color: dimgrey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px; /* set the amount of padding you want */
+}
+
+.Hours, .Minutes {
+    width: 50px !important;
+}
+
+.Title {
+    max-width: 220px !important;
+    min-width: 50px !important;
+}
+
+.Icons {
+    width: fit-content !important;
+    display: flex;
+    align-items: center;
+}
+
+.Date {
+    max-width: 220px !important;
+    min-width: 50px !important;
+}
+
+.grey-btn {
+    text-decoration: none;
+    border: 2px solid #757575;
+    border-radius: 24px;
+    color: #757575 !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-inline: 1.5rem !important;
+}
+
+.modal-header {
+    padding-right: 33px;
+}
+
+.grey-btn:hover {
+    color: #fff !important;
+    background-color: #757575;
+    transition: 500ms all ease-in-out;
+}
+
+.modal-header, .modal-footer {
+    border: none !important;
+}
+
+.btn-close {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.InputFields {
+    margin-bottom: 3rem;
+}
+
+.modalDialogForSkills {
+    min-width: 50vw !important;
+    min-height: 60vh !important;
+}
+
+option {
+    padding: 3px 11px;
+}
+
+.listboxes {
+    width: 100% !important;
+    height: 50vh;
+    overflow: auto;
+    border-radius: 7px;
+    border: 3px solid lightgray;
+}
+
+.leftRightButton img {
+    width: 10px;
+    height: 15px;
+}
+
+.selected:hover {
+    background-color: #f88634 !important;
+}
+
+.mainSkillBox {
+    padding-top: 5px;
+    width: 100% !important;
+    border: 2px solid #dee2e6;
+    overflow: auto;
+    height: 120px;
+    border-radius: 0.375rem !important;
+}
+
+.toast {
+    z-index: 10000;
+}
+
+.alert-danger {
+    padding: 0 0;
+    background: none;
+    border: none;
+    margin-bottom: 30px;
+    height: 0px !important;
+}
+
+.failure-alert {
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .listboxes {
+        height: auto !important;
+    }
+
+    #btnRight {
+        transform: rotate(90deg);
+    }
+
+    #btnLeft {
+        transform: rotate(90deg);
+    }
+
+    .leftRightButton {
+        flex-direction: row !important;
+    }
+}
+
+.sheetcontainer {
+    gap: 23px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sheet {
+    min-height: 196px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid lightgray;
+}
+
+.sheethead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important;
+    height: fit-content;
+    margin-bottom: 0.5rem;
+}
+
+thead {
+    justify-content: space-evenly;
+}
+
+.msg {
+    height: 88px;
+}
+
+.plusbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px !important;
+    padding-right: 14px !important;
+    padding-top: 0;
+    padding-bottom: 2px;
+    padding-inline: 0;
+}
+
+.delete:hover, .edit:hover {
+    cursor: pointer;
+}
+
+.plusbtn::before {
+    content: "+";
+    display: inline-block;
+    margin-right: 4px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    color: orange; /* Default color */
+    font-size: 1.4em;
+}
+
+.plusbtn:hover::before {
+    color: white; /* Color on hover */
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: fit-content;
+    }
+
+    html {
+        width: fit-content;
+    }
+
+    .header1 {
+        justify-content: space-between;
+    }
+}
+
+img:hover {
+    filter: brightness(0.8) saturate(0.8);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}

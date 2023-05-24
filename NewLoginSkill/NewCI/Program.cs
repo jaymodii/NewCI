@@ -1,5 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+using NewCI.Business.Services;
 using NewCI.Entities.Data;
+using NewCI.Interfaces.RepositoryInterfaces;
+
+using NewCI.Interfaces.ServiceInterfaces;
+using NewCI.Middleware;
+using NewCI.Repositories;
 using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,12 +21,25 @@ builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(25);
 });
+
+builder.Services.AddScoped(typeof(IGenericInterface<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IUserInterface, UserRepository>();
+builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
+builder.Services.AddScoped<IBannerService, BannerService>();
+builder.Services.AddScoped<ISkillService, SkillService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+    app.UseExceptionHandler("/Error/Index");
+    app.UseMiddleware<ExceptionHandlingMiddleware>();
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }

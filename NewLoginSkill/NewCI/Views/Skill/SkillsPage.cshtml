@@ -1,0 +1,154 @@
+﻿@using NewCI.Entities.DTOs
+
+@{
+
+    ViewData["Title"] = "Skills";
+    Layout = "_NavigationLayout";
+}
+@model NewCI.Entities.DTOs.AdminScreenDto<SkillCRUDDto>;
+
+
+<div class="modal fade" id="DeleteSkill" tabindex="-1"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Confirm Delete
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="justify-content-center">
+                    <b>Are you sure you want to delete this skill ??</b>
+                </div>
+            </div>
+            <div class="d-flex mt-3 justify-content-center pe-3 mb-3 gap-2">
+                <button class="btn grey-btn" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-submit" id="deleteSkill">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-flex basicInfoTag">
+    <input type="hidden" value=@Model!.count />
+    <p class="basicInfoTagText">
+        Mission Skills
+    </p>
+</div>
+<div class="searchadd">
+    <div class="searchmission dataTables_filter" id="example_filter">
+        <div>
+            <img src="/images/search.png" alt="search">
+        </div>
+        <input class="searchinput" id="searchUser" type="text" placeholder="Search Skills . . . "
+               aria-label="Search" id="searchstory" maxlength="70">
+    </div>
+    <div class="Addbtn">
+        <a asp-action="AddSkillPage" asp-controller="Skill" asp-route-Id=0 class="btn btn-submit d-flex plusbtn">
+            Add
+        </a>
+    </div>
+</div>
+
+<div>
+    <table id="example" cellspacing="0" class="display table table-bordered align-middle"
+           style="width:100%">
+
+
+        <thead class="gap-2">
+            <tr class="bg-light align-middle">
+                <th>Title </th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                if (@Model!.records != null)
+                {
+                    @foreach (var skill in @Model.records)
+                    {
+                        <tr class="align-middle">
+                            <td>@skill.SkillName</td>
+
+                            <td>
+                                @if (@skill.Status)
+                                {
+                                    <button class="btn bg-light text-success">Active</button>
+                                }
+                                else
+                                {
+                                    <button class=" btn bg-light text-danger">In Active</button>
+                                }
+                            </td>
+                            <td>
+                                <a class="btn p-0 EditButtonDataFetch" id="EditSkill" asp-action="AddSkillPage" asp-controller="Skill"
+                                asp-route-Id=@skill.SkillId>
+                                    <i style="color: #F88634;" class="bi bi-pencil-square"></i>
+                                </a>
+
+                                <button class="p-0 btn" data-bs-toggle="modal" data-bs-target="#DeleteSkill" value=@skill.SkillId id="deletebtn">
+                                    <i class="bi bi-trash"> </i>
+                                </button>
+
+                            </td>
+                        </tr>
+                    }
+                }
+            }
+    </table>
+
+</div>
+<div class="d-flex justify-content-center">
+    <div class="pagination-container">
+        <ul class="pagination">
+            @if (Model.count > 0)
+            {
+                <li class="page-item @(Model.pagenumber == 1 ? "disabled" : "")">
+                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=1">First</a>
+                </li>
+                <li class="page-item @(Model.pagenumber == 1 ? "disabled" : "")">
+                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=@(Model.pagenumber - 1)">Previous</a>
+                </li>
+
+                @if (Model.pagenumber > 2)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="/Skill/SkillsPage?pagenumber=1">1</a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a class="page-link">...</a>
+                    </li>
+                }
+
+                @for (int i = Math.Max(1, (int)Model.pagenumber! - 1); i <= Math.Min((int)Model.pagenumber + 1, Model.count); i++)
+                {
+                    <li class="page-item @(i == Model.pagenumber ? "active" : "")">
+                        <a class="page-link" href="/Skill/SkillsPage?pagenumber=@i">@i</a>
+                    </li>
+                }
+
+                @if (Model.pagenumber + 1 < Model.count)
+                {
+                    <li class="page-item disabled">
+                        <a class="page-link">...</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/Skill/SkillsPage?pagenumber=@Model.count">@Model.count</a>
+                    </li>
+                }
+
+                <li class="page-item @(Model.pagenumber == Model.count ? "disabled" : "")">
+                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=@(Model.pagenumber + 1)">Next</a>
+                </li>
+                <li class="page-item @(Model.pagenumber == Model.count ? "disabled" : "")">
+                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=@Model.count">Last</a>
+                </li>
+            }
+
+        </ul>
+    </div>
+</div>
+

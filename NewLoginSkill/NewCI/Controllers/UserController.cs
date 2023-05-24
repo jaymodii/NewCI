@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewCI.Entities.DTOs;
 using NewCI.Entities.ViewModels;
-using NewCI.Interfaces.RepositoryInterfaces;
+
 using NewCI.Interfaces.ServiceInterfaces;
+
 
 namespace CIPlatform.Controllers.Users
 {
@@ -17,18 +18,20 @@ namespace CIPlatform.Controllers.Users
     {
 
         public readonly IUserService _IUser;
+        public readonly IBannerService _IBanner;
 
-        public UserController(IUserService userService)
+
+        public UserController(IUserService userService, IBannerService banner)
         {
             _IUser = userService;
-
+            _IBanner = banner;
         }
-
+        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult LoginPage()
         {
             HttpContext.Session.Clear();
-            BannersDto? data = _IUser.GetBanners();
-          
+            BannersDto? data =  _IBanner.GetBanners();
+
             LoginPageViewModel viewModel = new LoginPageViewModel()
             {
                 BannerList = data!.Banners
@@ -48,7 +51,7 @@ namespace CIPlatform.Controllers.Users
                     TempData["error"] = "Invalid User or Password";
                     return RedirectToAction("LoginPage");
                 }
-               
+
 
                 //Session Management
                 HttpContext.Session.SetString("username", user.Name);
@@ -70,10 +73,11 @@ namespace CIPlatform.Controllers.Users
                 }
                 else if (user.Role == "admin")
                 {
-                    TempData["success"] = "Successfully Authenticated!!";
-                    TempData["success"] = "Welcome to Admin Screen !!";
-                    return RedirectToAction("SkillsPage", "Admin");
-
+                    TempData["success"] = 
+                        
+                            "Successfully Authenticated!! \n Welcome to Admin Screen !!"
+                         ;
+                    return RedirectToAction("SkillsPage", "Skill");
                 }
                 else
                 {
@@ -90,4 +94,3 @@ namespace CIPlatform.Controllers.Users
         }
     }
 }
-        

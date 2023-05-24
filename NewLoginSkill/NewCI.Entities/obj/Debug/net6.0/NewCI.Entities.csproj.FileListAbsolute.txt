@@ -12,3 +12,17 @@ C:\Jay Modi\NewCI\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.pdb
 C:\Jay Modi\NewCI\NewCI.Entities\bin\Debug\net6.0\NewCI.Entities.runtimeconfig.json
 C:\Jay Modi\NewCI\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.genruntimeconfig.cache
 C:\Jay Modi\NewCI\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.csproj.AssemblyReference.cache
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\bin\Debug\net6.0\NewCI.Entities.deps.json
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\bin\Debug\net6.0\NewCI.Entities.runtimeconfig.json
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\bin\Debug\net6.0\NewCI.Entities.dll
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\bin\Debug\net6.0\ref\NewCI.Entities.dll
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\bin\Debug\net6.0\NewCI.Entities.pdb
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.AssemblyInfoInputs.cache
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.AssemblyInfo.cs
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.csproj.CoreCompileInputs.cache
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.dll
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\ref\NewCI.Entities.dll
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.pdb
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.genruntimeconfig.cache
+C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Entities\obj\Debug\net6.0\NewCI.Entities.csproj.AssemblyReference.cache

@@ -1162,6 +1162,41 @@
             "rid": "win"
           }
         }
+      },
+      "NewCI.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Session": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/NewCI.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewCI.Entities.dll": {}
+        }
+      },
+      "NewCI.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Session": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "NewCI.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NewCI.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewCI.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -3734,6 +3769,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "NewCI.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NewCI.Entities/NewCI.Entities.csproj",
+      "msbuildProject": "../NewCI.Entities/NewCI.Entities.csproj"
+    },
+    "NewCI.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../NewCI.Interfaces/NewCI.Interfaces.csproj",
+      "msbuildProject": "../NewCI.Interfaces/NewCI.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3744,7 +3789,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.5"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
+      "NewCI.Interfaces >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3780,7 +3826,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+              "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

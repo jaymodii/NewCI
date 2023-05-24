@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+@model NewCI.Entities.ViewModels.LoginPageViewModel;
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css" />
+
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/Authentication.css" type="text/css" />
+    <title>Login- CI Platform</title>
+
+</head>
+<partial name="_NotificationPartialView" />
+<body class="fillheight">
+
+    <div class="login-page sidegutteroff fillheight  row">
+        <div class="left-container col-sm-7 col-md-8 pic">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
+                <ol class="carousel-indicators">
+                    @for (int i = 0; i < Model?.BannerList?.Count; i++)
+                    {
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="@i" class=" @(i==0?"active":"")"></li>
+                    }
+                </ol>
+                <div class="carousel-inner">
+                    @for (int i = 0; i < Model?.BannerList?.Count; i++)
+                    {
+                        <div class="carousel-item @(i==0?"active":"")">
+                            <img src="~/UploadedImages/Banners/@Model.BannerList[i].Image" class="d-block carousel-img" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h5>@Model.BannerList[i].Title</h5>
+                                @if(!String.IsNullOrEmpty(@Model.BannerList[i].Description)){
+
+                                <p>@Model.BannerList[i].Description</p>
+                                }
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+        </div>
+        <div class="right-container col-sm-5 col-md-4 d-flex flex-column justify-content-around align-items-center">
+            <form class="firstform" method="post">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label asp-for="Email" class="form-text emailtext mb-1">Email address</label>
+                    <input type="email" id="emailID" asp-for="Email" style="color: #414141; letter-spacing:0px;" placeholder="evan.donohue@gmail.com" class="form-control  textstyle" maxlength="90" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <!-- Password input -->
+                <div class="form-outline mb-5">
+                    <label asp-for="Password" class="form-text mb-1">Password</label>
+
+                    <input type="password" id="password" asp-for="Password" class="form-control  textstyle" placeholder="**********" maxlength="70" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <!-- Login button -->
+                <button type="submit" class="btn btn-login d-flex mb-4" value="Sign in">
+                    Sign in
+                </button>
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <a asp-controller="User" asp-action="ForgotPasswordPage"><p class="mb-4 textstyle">Lost your password?</p></a>
+                    <p>Don't have an account?<a class="createlink" asp-controller="User" asp-action="RegisterPage">Create an account</a></p>
+                </div>
+            </form>
+            <p class="form-text text-center privacy textstyle"><a asp-action="PolicyPage" asp-controller="User" target="_blank">Privacy Policy</a></p>
+        </div>
+    </div>
+
+    @section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    }
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/bootstrap.bundle.js"></script>
+   
+</body>
+</html>

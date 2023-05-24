@@ -1,5 +1,8 @@
-﻿using NewCI.Entities.DTOs;
+﻿
+using NewCI.Entities.DTOs;
+using NewCI.Entities.Models;
 using NewCI.Entities.ViewModels;
+using NewCI.Interfaces.RepositoryInterfaces;
 using NewCI.Interfaces.ServiceInterfaces;
 using NewCI.Repositories;
 using System;
@@ -10,13 +13,14 @@ using System.Threading.Tasks;
 
 namespace NewCI.Business.Services
 {
-    public class UserService:IUserService
+    public class UserService:GenericService<User> , IUserService
     {
-        private readonly UserRepository _user;
-
-        public UserService(UserRepository userRepository)
+ 
+        private readonly IUserInterface _userInterface;
+        public UserService(IUserInterface userInterface) :base(userInterface)
         {
-            _user = userRepository;
+           
+            _userInterface = userInterface; 
         }
 
         public SessionDto? Login(LoginPageViewModel obj)
@@ -28,14 +32,10 @@ namespace NewCI.Business.Services
 
             CredentialDto credentials=new CredentialDto(obj.Email, obj.Password);
             
-            return _user.Login(credentials);
+            return _userInterface.Login(credentials);
 
         }
 
-        public BannersDto? GetBanners()
-        {
-           
-            return _user.GetBanners();
-        }
+      
     }
 }

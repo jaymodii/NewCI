@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="RepositoryInterfaces\" />
-    <Folder Include="ServiceIntefaces\" />
   </ItemGroup>
 
   <ItemGroup>

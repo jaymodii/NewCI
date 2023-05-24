@@ -32,7 +32,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
+                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
+              },
+              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
+              },
+              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
+                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -76,6 +86,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
             }
           },
           "imports": [
@@ -315,7 +329,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
