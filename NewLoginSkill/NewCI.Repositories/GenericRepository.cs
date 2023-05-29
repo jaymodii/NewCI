@@ -53,7 +53,7 @@ namespace NewCI.Repositories
             }
             return await query.ToListAsync();
         }
-        public PagedResult<T> GetAll(int pageNumber,string? sortBy, int pageSize = 5)
+        public PagedResult<T> GetAll(int pageNumber,string? sortBy, int pageSize = 5,string? search=null,string? searchOnProperty=null)
         {
             IQueryable<T> query = _db.Set<T>();
             var deletedAtProperty = typeof(T).GetProperty("DeletedAt");
@@ -61,28 +61,21 @@ namespace NewCI.Repositories
             {
                 query = query.AsEnumerable().Where(x => deletedAtProperty.GetValue(x) == null).AsQueryable();
             }
-            if (!string.IsNullOrEmpty(sortBy))
+
+            if (!string.IsNullOrEmpty(search) && !string.IsNullOrEmpty(searchOnProperty))
             {
-                var property = typeof(T).GetProperty(sortBy);
-                if (property != null)
+                var property = typeof(T).GetProperty(searchOnProperty);
+                if (property != null && property.PropertyType == typeof(string))
                 {
-                    if (property.PropertyType == typeof(string))
-                    {
-                        query = query.OrderBy(x => (string)property.GetValue(x)!);
-                    }
-                    else
-                    {
-                        query = query.OrderBy(x => property.GetValue(x));
-                    }
+                    query = query.Where(x => ((string)property.GetValue(x)!).Contains(search, StringComparison.OrdinalIgnoreCase) == true);
                 }
             }
-            int totalCount =  query.Count();
-            int totalPages = (int)Math.Ceiling((double)totalCount / pageSize);
-            List<T> entries =  query.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+            query = ApplySorting(query, sortBy);
+       
             return new PagedResult<T>
             {
-                Entries = entries,
-                TotalPages = totalPages
+                Entries = query.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList(),
+                TotalPages = (int)Math.Ceiling((double)(query.Count()) / pageSize)
             };
         }
         public T? GetById(long id)
@@ -95,5 +88,26 @@ namespace NewCI.Repositories
             _db.SaveChanges();
             return true;
         }
+        private IQueryable<T> ApplySorting(IQueryable<T> query, string? sortBy)
+        {
+            if (!string.IsNullOrEmpty(sortBy))
+            {
+                var property = typeof(T).GetProperty(sortBy);
+                if (property != null)
+                {
+                    if (property.PropertyType == typeof(string))
+                    {
+                        return query.OrderBy(x => (string)property.GetValue(x)!);
+                    }
+                    else
+                    {
+                        return query.OrderBy(x => property.GetValue(x));
+                    }
+                }
+            }
+
+            return query;
+        }
+
     }
 }

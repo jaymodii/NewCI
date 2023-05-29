@@ -35,9 +35,9 @@ namespace NewCI.Business.Services
 
         }
 
-        public PagedResult<T> GetAll(int pageNumber,string sortBy,int pageSize=5)
+        public PagedResult<T> GetAll(int pageNumber,string sortBy,int pageSize=5,string? search=null,string? searchOnProperty=null)
         {
-            return _repo.GetAll(pageNumber,sortBy,pageSize);
+            return _repo.GetAll(pageNumber,sortBy,pageSize,search,searchOnProperty);
         }
 
         public bool Update(T entity)

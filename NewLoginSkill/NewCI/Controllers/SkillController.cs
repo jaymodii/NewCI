@@ -19,19 +19,24 @@ namespace NewCI.Controllers
             return HttpContext.User.Identity!.IsAuthenticated;
         }
       
-        public  IActionResult SkillsPage(int pagenumber=1,int pagesize=5)
+        public  IActionResult SkillsPage(int pagenumber=1,int pagesize=5,string? search=null)
         {
-            AdminScreenDto<SkillCRUDDto> adminScreen = _skillService.GetSkills(pagenumber, pagesize);
+            AdminScreenDto<SkillCRUDDto> adminScreen = _skillService.GetSkills(pagenumber, pagesize,search);
             if (adminScreen == null)
             {
                 TempData["info"] = "Unable to fetch skills , Contact Developer";
             }
             
+                ViewBag.searchString=search;
+
+            
             return View(adminScreen);
         }
         [HttpGet]
-        public IActionResult AddSkillPage(long Id=0)
+        public IActionResult AddSkillPage(long Id=0,int pagenumber=1,string? search=null)
         {
+            ViewBag.page = pagenumber;
+            ViewBag.search=search;
             if (Id == 0)
             {
                 return View();

@@ -1,0 +1,748 @@
+﻿++Solution 'NewCI' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:NewCI.sln
+++NewCI.Business
+i:{00000000-0000-0000-0000-000000000000}:NewCI.Business
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci.business\newci.business.csproj
+++Dependencies
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>825
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>661
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>823
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>824
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1226
+++Services
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\services\
+++BannerService.cs
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\services\bannerservice.cs
+++GenericService.cs
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\services\genericservice.cs
+++SkillService.cs
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\services\skillservice.cs
+++UserService.cs
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\services\userservice.cs
+++Class1.cs
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\class1.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\class1.cs
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\class1.cs
+++Analyzers
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:analyzers
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:analyzers
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:analyzers
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:analyzers
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:analyzers
+++Frameworks
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:frameworks
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:frameworks
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:frameworks
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:frameworks
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:frameworks
+++Packages
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:packages
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:packages
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:packages
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:packages
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:packages
+++Projects
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:projects
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:projects
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:projects
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:projects
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\users\pca167\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\users\pca167\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\users\pca167\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\users\pca167\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\users\pca167\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\users\pca167\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\users\pca167\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\users\pca167\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\users\pca167\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\users\pca167\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\users\pca167\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\users\pca167\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\users\pca167\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\users\pca167\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\users\pca167\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.business\microsoft.netcore.app
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\microsoft.netcore.app
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\microsoft.netcore.app
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\microsoft.netcore.app
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\microsoft.netcore.app
+++Microsoft.AspNetCore.Http (2.2.2)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1278
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1307
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1270
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1275
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1282
+++Microsoft.AspNetCore.Http.Abstractions (2.2.0)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1283
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1309
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1277
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1281
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1285
+++Microsoft.AspNetCore.Session (2.2.0)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1273
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1306
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1264
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1271
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1276
+++Microsoft.EntityFrameworkCore (7.0.5)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1257
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1303
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1254
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1260
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1265
+++Microsoft.EntityFrameworkCore.Design (7.0.5)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1266
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1305
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1259
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1267
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1272
+++Microsoft.EntityFrameworkCore.SqlServer (7.0.5)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1261
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1304
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1256
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1263
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1268
+++Microsoft.EntityFrameworkCore.Tools (7.0.5)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1280
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:>1308
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:>1274
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:>1279
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1284
+++NPOI (2.6.0)
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:>1269
+++NewCI.Entities
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\newci.entities.csproj
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\newci.entities.csproj
+i:{00000000-0000-0000-0000-000000000000}:NewCI.Entities
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\newci.entities.csproj
+++NewCI.Interfaces
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\newci.interfaces.csproj
+i:{00000000-0000-0000-0000-000000000000}:NewCI.Interfaces
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\newci.interfaces.csproj
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\newci.interfaces.csproj
+++NewCI.Repositories
+i:{9b619afd-45fa-4c5c-9d89-fc11850603f8}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\newci.repositories.csproj
+i:{00000000-0000-0000-0000-000000000000}:NewCI.Repositories
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\newci.repositories.csproj
+++RepositoryInterfaces
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\repositoryinterfaces\
+++ServiceIntefaces
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\serviceintefaces\
+++IBannerService.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\serviceintefaces\ibannerservice.cs
+++IGenericService.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\serviceintefaces\igenericservice.cs
+++ISkillService.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\serviceintefaces\iskillservice.cs
+++IUserService.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\serviceintefaces\iuserservice.cs
+++IUserInterface.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\iuserinterface.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\repositoryinterfaces\iuserinterface.cs
+++IGenericInterface.cs
+i:{63ab047e-0d1e-497e-afe2-b8e48be4ea91}:c:\jay modi\completed skillmaster\newloginskill\newci.interfaces\repositoryinterfaces\igenericinterface.cs
+++GenericRepository.cs
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\genericrepository.cs
+++SkillRepository.cs
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\skillrepository.cs
+++UserRepository.cs
+i:{4b509edb-7245-4060-b0b2-fe50fd86ecfc}:c:\jay modi\completed skillmaster\newloginskill\newci.repositories\userrepository.cs
+++Data
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\data\
+++DatabasewithDataContext.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\data\databasewithdatacontext.cs
+++DTOs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\dtos\
+++AdminScreenDto.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\dtos\adminscreendto.cs
+++BannersDto.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\dtos\bannersdto.cs
+++CredentialDto.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\dtos\credentialdto.cs
+++SessionDto.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\dtos\sessiondto.cs
+++SkillCRUDDto.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\dtos\skillcruddto.cs
+++Models
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\models\
+++Admin.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\admin.cs
+++Banner.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\banner.cs
+++City.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\city.cs
+++CmsPage.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\cmspage.cs
+++Comment.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\comment.cs
+++ContactU.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\contactu.cs
+++Country.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\country.cs
+++FavouriteMission.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\favouritemission.cs
+++GoalMission.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\goalmission.cs
+++Mission.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\mission.cs
+++MissionApplication.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missionapplication.cs
+++MissionDocument.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missiondocument.cs
+++MissionInvite.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missioninvite.cs
+++MissionMedium.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missionmedium.cs
+++MissionRating.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missionrating.cs
+++MissionSkill.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missionskill.cs
+++MissionTheme.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\missiontheme.cs
+++PasswordReset.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\passwordreset.cs
+++Skill.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\skill.cs
+++Story.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\story.cs
+++StoryInvite.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\storyinvite.cs
+++StoryMedium.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\storymedium.cs
+++Timesheet.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\timesheet.cs
+++User.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\user.cs
+++UserSkill.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\models\userskill.cs
+++ViewModels
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\viewmodels\
+++PagedResult.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\pagedresult.cs
+++LoginPageViewModel.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\viewmodels\loginpageviewmodel.cs
+++SessionVeiwModel.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\viewmodels\sessionveiwmodel.cs
+++SkillCRUDViewModel.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\viewmodels\skillcrudviewmodel.cs
+++SkillsViewModel.cs
+i:{44339640-6d70-44a0-8552-6fb87cf222cc}:c:\jay modi\completed skillmaster\newloginskill\newci.entities\viewmodels\skillsviewmodel.cs
+++NewCI
+i:{00000000-0000-0000-0000-000000000000}:NewCI
+++Connected Services 
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1227
+++Properties
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\properties\
+++wwwroot
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\
+++Controllers
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\controllers\
+++ErrorController.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\controllers\errorcontroller.cs
+++HomeController.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\controllers\homecontroller.cs
+++SkillController.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\controllers\skillcontroller.cs
+++UserController.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\controllers\usercontroller.cs
+++Middleware
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\middleware\
+++ErrorViewModel.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\models\errorviewmodel.cs
+++Views
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\
+++appsettings.json
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\appsettings.json
+++Program.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\program.cs
+++No service dependencies discovered
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:>1228
+++launchSettings.json
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\properties\launchsettings.json
+++css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\css\
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\
+++Images
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\
+++js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\js\
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\
+++UploadedImages
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\
+++favicon.ico
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\favicon.ico
+++ExceptionHandlingMiddleware.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\middleware\exceptionhandlingmiddleware.cs
+++Error
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\error\
+++Home
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\home\
+++Shared
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\
+++Skill
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\skill\
+++User
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\user\
+++_ViewImports.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\_viewstart.cshtml
+++appsettings.Development.json
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\microsoft.aspnetcore.app
+++adminSidebar.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\css\adminsidebar.css
+++Authentication.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\css\authentication.css
+++bootstrap.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\css\bootstrap.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++site.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\css\site.css
+++UserProfile.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\css\userprofile.css
+++404-Page-image.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\404-page-image.png
+++achieved.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\achieved.png
+++add.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\add.png
+++add1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\add1.png
+++Already-volunteered.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\already-volunteered.png
+++Animal-welfare-&-save-birds-campaign.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\animal-welfare-&-save-birds-campaign.png
+++Animal-welfare-&-save-birds-campaign-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\animal-welfare-&-save-birds-campaign-1.png
+++Annexure 2_442086-1.pdf
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\annexure 2_442086-1.pdf
+++arrow.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\arrow.png
+++Avatar.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\avatar.png
+++bell.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\bell.png
+++bell-big.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\bell-big.png
+++bin.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\bin.png
+++bullet-1-mobile.jpg
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\bullet-1-mobile.jpg
+++calender.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\calender.png
+++cancel.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\cancel.png
+++cancel1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\cancel1.png
+++checked.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\checked.png
+++cross.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\cross.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity-1.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity-2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity-2.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity-3.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity-4.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity-5.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity-5.png
+++CSR-initiative-stands-for-Coffee--and-Farmer-Equity-6.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\csr-initiative-stands-for-coffee--and-farmer-equity-6.png
+++deadline.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\deadline.png
+++doc.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\doc.png
+++down.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\down.png
+++download.jfif
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\download.jfif
+++drag-and-drop.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\drag-and-drop.png
+++drop-down.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\drop-down.png
+++Education-Supplies-for-Every--Pair-of-Shoes-Sold.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\education-supplies-for-every--pair-of-shoes-sold.png
+++Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\education-supplies-for-every--pair-of-shoes-sold-1.png
+++Education-Supplies-for-Every--Pair-of-Shoes-Sold-2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\education-supplies-for-every--pair-of-shoes-sold-2.png
+++eye.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\eye.png
+++facebook.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\facebook.png
+++filter.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\filter.png
+++gift.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\gift.png
+++graph.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\graph.png
+++grid.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grid.png
+++Grow-Trees-On-the-path-to-environment-sustainability.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability.png
+++Grow-Trees-On-the-path-to-environment-sustainability-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability-1.png
+++Grow-Trees-On-the-path-to-environment-sustainability-2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability-2.png
+++Grow-Trees-On-the-path-to-environment-sustainability-3.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability-3.png
+++Grow-Trees-On-the-path-to-environment-sustainability-4.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability-4.png
+++Grow-Trees-On-the-path-to-environment-sustainability-5.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability-5.png
+++Grow-Trees-On-the-path-to-environment-sustainability-login.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\grow-trees-on-the-path-to-environment-sustainability-login.png
+++heart.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\heart.png
+++heart1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\heart1.png
+++hours.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\hours.png
+++image.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\image.png
+++image1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\image1.png
+++image2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\image2.png
+++images (1).jfif
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\images (1).jfif
+++images.jfif
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\images.jfif
+++img.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img.png
+++img1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img1.png
+++img11.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img11.png
+++img2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img2.png
+++img22.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img22.png
+++img3.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img3.png
+++img33.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\img33.png
+++info.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\info.png
+++JayModi_Annexure2.pdf
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\jaymodi_annexure2.pdf
+++left.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\left.png
+++left1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\left1.png
+++linkedin.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\linkedin.png
+++list.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\list.png
+++logo.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\logo.png
+++mission.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\mission.png
+++my-story.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\my-story.png
+++new-message.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\new-message.png
+++next.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\next.png
+++noimage.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\noimage.png
+++no-image.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\no-image.png
+++noimagefinal.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\noimagefinal.png
+++Nourish-the-Children-in--African-country.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\nourish-the-children-in--african-country.png
+++Nourish-the-Children-in--African-country-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\nourish-the-children-in--african-country-1.png
+++Open-Volunteering-Requests.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\open-volunteering-requests.png
+++organization.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\organization.png
+++pdf.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\pdf.png
+++pin.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\pin.png
+++pin1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\pin1.png
+++Plantation-and-Afforestation-programme.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\plantation-and-afforestation-programme.png
+++Plantation-and-Afforestation-programme-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\plantation-and-afforestation-programme-1.png
+++previous.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\previous.png
+++processed-80e65076-7c44-494c-a198-a88478c7d530_sQr3ZD4r.jpeg
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\processed-80e65076-7c44-494c-a198-a88478c7d530_sqr3zd4r.jpeg
+++proxy.jfif
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\proxy.jfif
+++right.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\right.png
+++right-arrow.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\right-arrow.png
+++right-arrow1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\right-arrow1.png
+++right-arrow2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\right-arrow2.png
+++right-white.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\right-white.png
+++Screen.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\screen.png
+++search.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\search.png
+++Seats-left.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\seats-left.png
+++selected-star.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\selected-star.png
+++settings.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\settings.png
+++star.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\star.png
+++star-empty.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\star-empty.png
+++testimag.JPEG
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\testimag.jpeg
+++twitter.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\twitter.png
+++up.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\up.png
+++user.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\user.png
+++user1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\user1.png
+++user-img.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\user-img.png
+++user-img-large.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\user-img-large.png
+++volunteer1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer1.png
+++volunteer2.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer2.png
+++volunteer3.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer3.png
+++volunteer4.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer4.png
+++volunteer5.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer5.png
+++volunteer6.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer6.png
+++volunteer7.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer7.png
+++volunteer8.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer8.png
+++volunteer9.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteer9.png
+++Volunteering-Rank.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\volunteering-rank.png
+++Voted-Missions.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\voted-missions.png
+++web.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\web.png
+++xlsx.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\images\xlsx.png
+++AdminNavigation.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\js\adminnavigation.js
+++bootstrap.bundle.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\js\bootstrap.bundle.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++DataTable.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\js\datatable.js
+++site.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\js\site.js
+++bootstrap
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\
+++jquery
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery\
+++jquery-validation
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation-unobtrusive\
+++Banners
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\
+++Error.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\error\error.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\error.cshtml
+++Index.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\home\index.cshtml
+++Privacy.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\_layout.cshtml
+++_NavigationLayout.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\_navigationlayout.cshtml
+++_NotificationPartialView.cs
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\_notificationpartialview.cs
+++_NotificationPartialView.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\_notificationpartialview.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\_validationscriptspartial.cshtml
+++AddSkillPage.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\skill\addskillpage.cshtml
+++SkillsPage.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\skill\skillspage.cshtml
+++LoginPage.cshtml
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\user\loginpage.cshtml
+++dist
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery\dist\
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery\license.txt
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++11_15_istockphoto-534921629-1024x1024.jpg
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\11_15_istockphoto-534921629-1024x1024.jpg
+++13_1_g.jpg
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\13_1_g.jpg
+++14_2_Grow-Trees-On-the-path-to-environment-sustainability-login.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\14_2_grow-trees-on-the-path-to-environment-sustainability-login.png
+++15_3_Nourish-the-Children-in--African-country-1.png
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\15_3_nourish-the-children-in--african-country-1.png
+++16_4_hd-wallpaper-247391.jpg
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\16_4_hd-wallpaper-247391.jpg
+++17_5_car.jpeg
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\uploadedimages\banners\17_5_car.jpeg
+++_Layout.cshtml.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\views\shared\_layout.cshtml.css
+++jquery.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.rtl.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.esm.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{58053f86-d657-4653-9e2f-f704b2a7f986}:c:\jay modi\completed skillmaster\newloginskill\newci\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map

@@ -12,7 +12,7 @@ namespace NewCI.Interfaces.ServiceInterfaces
         public Task<IEnumerable<T>> GetAllRecordsAsync();
         public bool Add(T entity);
         public bool Delete(long id);
-        public PagedResult<T> GetAll(int pageNumber, string sortBy, int pageSize = 5);
+        public PagedResult<T> GetAll(int pageNumber, string sortBy, int pageSize = 5, string? search = null, string? searchOnProperty = null);
         public bool Update(T entity);
         public T? GetByID(long id);
     }

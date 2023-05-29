@@ -38,15 +38,17 @@
     </p>
 </div>
 <div class="searchadd">
-    <div class="searchmission dataTables_filter" id="example_filter">
-        <div>
-            <img src="/images/search.png" alt="search">
+    <form method="get" asp-controller="Skill" asp-action="SkillsPage" class="d-flex gap-5">
+        <div class="searchmission dataTables_filter" id="example_filter">
+            <div>
+                <img src="/images/search.png" alt="search">
+            </div>
+            <input class="searchinput" type="text" placeholder="Search Skills . . . " aria-label="Search" id="searchstory" maxlength="70" name="search" value="@ViewBag.searchString">
         </div>
-        <input class="searchinput" id="searchUser" type="text" placeholder="Search Skills . . . "
-               aria-label="Search" id="searchstory" maxlength="70">
-    </div>
+        <button type="submit" class="btn btn-submit">Search</button>
+    </form>
     <div class="Addbtn">
-        <a asp-action="AddSkillPage" asp-controller="Skill" asp-route-Id=0 class="btn btn-submit d-flex plusbtn">
+        <a asp-action="AddSkillPage" asp-controller="Skill" asp-route-Id=0 asp-route-search="@ViewBag.searchString" asp-route-pagenumber="@Model.pagenumber" class="btn btn-submit d-flex plusbtn">
             Add
         </a>
     </div>
@@ -85,7 +87,7 @@
                             </td>
                             <td>
                                 <a class="btn p-0 EditButtonDataFetch" id="EditSkill" asp-action="AddSkillPage" asp-controller="Skill"
-                                asp-route-Id=@skill.SkillId>
+                       asp-route-Id=@skill.SkillId asp-route-search="@ViewBag.searchString" asp-route-pagenumber="@Model.pagenumber">
                                     <i style="color: #F88634;" class="bi bi-pencil-square"></i>
                                 </a>
 
@@ -107,16 +109,16 @@
             @if (Model.count > 0)
             {
                 <li class="page-item @(Model.pagenumber == 1 ? "disabled" : "")">
-                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=1">First</a>
+                    <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = 1 })">First</a>
                 </li>
                 <li class="page-item @(Model.pagenumber == 1 ? "disabled" : "")">
-                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=@(Model.pagenumber - 1)">Previous</a>
+                    <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = Model.pagenumber - 1 })">Previous</a>
                 </li>
 
                 @if (Model.pagenumber > 2)
                 {
                     <li class="page-item">
-                        <a class="page-link" href="/Skill/SkillsPage?pagenumber=1">1</a>
+                        <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = 1 })">1</a>
                     </li>
                     <li class="page-item disabled">
                         <a class="page-link">...</a>
@@ -126,7 +128,7 @@
                 @for (int i = Math.Max(1, (int)Model.pagenumber! - 1); i <= Math.Min((int)Model.pagenumber + 1, Model.count); i++)
                 {
                     <li class="page-item @(i == Model.pagenumber ? "active" : "")">
-                        <a class="page-link" href="/Skill/SkillsPage?pagenumber=@i">@i</a>
+                        <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = i })">@i</a>
                     </li>
                 }
 
@@ -136,18 +138,17 @@
                         <a class="page-link">...</a>
                     </li>
                     <li class="page-item">
-                        <a class="page-link" href="/Skill/SkillsPage?pagenumber=@Model.count">@Model.count</a>
+                        <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = Model.count })">@Model.count</a>
                     </li>
                 }
 
                 <li class="page-item @(Model.pagenumber == Model.count ? "disabled" : "")">
-                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=@(Model.pagenumber + 1)">Next</a>
+                    <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = Model.pagenumber + 1 })">Next</a>
                 </li>
                 <li class="page-item @(Model.pagenumber == Model.count ? "disabled" : "")">
-                    <a class="page-link" href="/Skill/SkillsPage?pagenumber=@Model.count">Last</a>
+                    <a class="page-link" href="@Url.Action("SkillsPage", new { search = ViewBag.searchString, pageNumber = Model.count })">Last</a>
                 </li>
             }
-
         </ul>
     </div>
 </div>

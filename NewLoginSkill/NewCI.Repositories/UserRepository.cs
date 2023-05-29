@@ -15,14 +15,15 @@ namespace NewCI.Repositories
 {
     public class UserRepository : GenericRepository<User>, IUserInterface 
     {
-        public readonly DatabasewithDataContext _db;
+        public new readonly DatabasewithDataContext _db;
         public UserRepository(DatabasewithDataContext db):base(db)
         {
             _db = db;
         }
 
-     
-       
+
+
+
 
 
         public SessionDto? Login(CredentialDto obj)

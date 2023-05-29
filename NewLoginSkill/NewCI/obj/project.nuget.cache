@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iJAzH6wXaaicJZKzgChKYQizbQrjMyKT2U/Ge/o67J+WGS8STEiFHLBIdFU5sTnQE50mf5fSi+DfB4oIqSGdjQ==",
+  "dgSpecHash": "3SdqUWII25A1OMEy1iEhtxc1O/mI7LVn9VARiaawItveaLYdkW5FV3nZ6wRYvzB2c181A+cyGpbxKxUOSpKY/A==",
   "success": true,
-  "projectFilePath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI\\NewCI.csproj",
+  "projectFilePath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI\\NewCI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pca167\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pca167\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

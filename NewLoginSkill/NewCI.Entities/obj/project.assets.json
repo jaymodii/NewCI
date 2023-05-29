@@ -3755,11 +3755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
+      "projectUniqueName": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
       "projectName": "NewCI.Entities",
-      "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
+      "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
       "packagesPath": "C:\\Users\\pca167\\.nuget\\packages\\",
-      "outputPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\obj\\",
+      "outputPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

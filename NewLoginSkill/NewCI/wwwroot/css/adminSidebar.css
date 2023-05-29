@@ -51,7 +51,10 @@ li:not(:last-child) {
     background-color: #f88634 !important;
     color: white;
 }
-
+.active{
+    background-color:#F88634!important;
+    color:white;
+}
 select {
     justify-content: center;
 }

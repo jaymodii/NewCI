@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI\\NewCI.csproj": {}
+    "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI\\NewCI.csproj": {}
   },
   "projects": {
-    "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj": {
+    "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj",
+        "projectUniqueName": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj",
         "projectName": "NewCI.Business",
-        "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj",
+        "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj",
         "packagesPath": "C:\\Users\\pca167\\.nuget\\packages\\",
-        "outputPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Business\\obj\\",
+        "outputPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,14 +33,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
               },
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
               },
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj"
               }
             }
           }
@@ -111,14 +111,14 @@
         }
       }
     },
-    "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
+    "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
+        "projectUniqueName": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
         "projectName": "NewCI.Entities",
-        "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
+        "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj",
         "packagesPath": "C:\\Users\\pca167\\.nuget\\packages\\",
-        "outputPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\obj\\",
+        "outputPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+    "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj",
+        "projectUniqueName": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj",
         "projectName": "NewCI.Interfaces",
-        "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj",
+        "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj",
         "packagesPath": "C:\\Users\\pca167\\.nuget\\packages\\",
-        "outputPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\obj\\",
+        "outputPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -233,8 +233,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
               }
             }
           }
@@ -301,14 +301,14 @@
         }
       }
     },
-    "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
+    "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj",
+        "projectUniqueName": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj",
         "projectName": "NewCI.Repositories",
-        "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj",
+        "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj",
         "packagesPath": "C:\\Users\\pca167\\.nuget\\packages\\",
-        "outputPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\obj\\",
+        "outputPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -330,8 +330,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
               }
             }
           }
@@ -398,14 +398,14 @@
         }
       }
     },
-    "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI\\NewCI.csproj": {
+    "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI\\NewCI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI\\NewCI.csproj",
+        "projectUniqueName": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI\\NewCI.csproj",
         "projectName": "NewCI",
-        "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI\\NewCI.csproj",
+        "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI\\NewCI.csproj",
         "packagesPath": "C:\\Users\\pca167\\.nuget\\packages\\",
-        "outputPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI\\obj\\",
+        "outputPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -427,17 +427,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Business\\NewCI.Business.csproj"
               },
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Entities\\NewCI.Entities.csproj"
               },
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Interfaces\\NewCI.Interfaces.csproj"
               },
-              "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
-                "projectPath": "C:\\Jay Modi\\NewCI\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj"
+              "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj": {
+                "projectPath": "C:\\Jay Modi\\Completed SkillMaster\\NewLoginSkill\\NewCI.Repositories\\NewCI.Repositories.csproj"
               }
             }
           }

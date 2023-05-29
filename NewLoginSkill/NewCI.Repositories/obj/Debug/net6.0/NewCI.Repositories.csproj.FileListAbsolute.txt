@@ -30,3 +30,22 @@ C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Interf
 C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Entities.pdb
 C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.csproj.CopyComplete
 C:\Jay Modi\NewCI\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.genruntimeconfig.cache
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Repositories.deps.json
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Repositories.runtimeconfig.json
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Repositories.dll
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\ref\NewCI.Repositories.dll
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Repositories.pdb
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Entities.dll
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Interfaces.dll
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Interfaces.pdb
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\bin\Debug\net6.0\NewCI.Entities.pdb
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.csproj.AssemblyReference.cache
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.AssemblyInfoInputs.cache
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.AssemblyInfo.cs
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.csproj.CoreCompileInputs.cache
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.csproj.CopyComplete
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.dll
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\ref\NewCI.Repositories.dll
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.pdb
+C:\Jay Modi\Completed SkillMaster\NewLoginSkill\NewCI.Repositories\obj\Debug\net6.0\NewCI.Repositories.genruntimeconfig.cache

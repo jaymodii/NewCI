@@ -16,9 +16,9 @@ namespace NewCI.Business.Services
         public SkillService(IGenericInterface<Skill> repository) : base(repository)
         {
         }
-        public AdminScreenDto<SkillCRUDDto> GetSkills(int pagenumber = 1, int pageSize = 5)
+        public AdminScreenDto<SkillCRUDDto> GetSkills(int pagenumber = 1, int pageSize = 5,string? search=null)
         {
-            PagedResult<Skill> records = GetAll(pagenumber, "SkillName", pageSize);
+            PagedResult<Skill> records = GetAll(pagenumber, "SkillName", pageSize,search, "SkillName");
             var skillDtos = records.Entries!.Select(skill => new SkillCRUDDto(skill.SkillId, skill.SkillName!, skill.Status)).ToList();
             return new AdminScreenDto<SkillCRUDDto>(skillDtos, records.TotalPages, pagenumber);
         }
